@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.9.0">
+  <diagram name="Página-1" id="W4fJ-3JsbLzkZUoCvN_L">
+    <mxGraphModel dx="4479" dy="2025" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KyeWPsFgRFGMk8H_n_iJ-14" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="KyeWPsFgRFGMk8H_n_iJ-1" target="KyeWPsFgRFGMk8H_n_iJ-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KyeWPsFgRFGMk8H_n_iJ-1" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-3301" y="-906" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-5" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KyeWPsFgRFGMk8H_n_iJ-2" target="oSoX7snds7X8gOdMd6aF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KyeWPsFgRFGMk8H_n_iJ-2" value="vidas =int(3)&lt;br&gt;planetas_explorados = int(0)&lt;br&gt;opcion = int(0)&lt;br&gt;controlador = bool(False)&lt;br&gt;gemas = bool(False)&lt;br&gt;gema1 = False&lt;br&gt;gema2 = False&lt;br&gt;gema3 = False&lt;br&gt;planeta1 = &quot;Marte&quot;&lt;br&gt;planeta2 = &quot;Venus&quot;&lt;br&gt;planeta3 = &quot;Júpiter&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-3354" y="-788" width="215" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="f43pLu_u4bK0ErfQMYao-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="KyeWPsFgRFGMk8H_n_iJ-2" target="KyeWPsFgRFGMk8H_n_iJ-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-9" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oSoX7snds7X8gOdMd6aF-4" target="oSoX7snds7X8gOdMd6aF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-4" value="&lt;br&gt;print(&quot;Tu objetivo es explorar los 3 planetas, responder&quot;)&lt;br&gt;print(&quot;correctamente las preguntas que te hagan los&quot;)&lt;br&gt;print(&quot;personajes y recolectar las 3 gemas sin quedarte&quot;)&lt;br&gt;print(&quot;sin vidas.&quot;)&lt;br&gt;print(&quot;Comenzarás esta aventura con 3 vidas y 0 gemas.&quot;)&lt;br&gt;print(&quot;¡Buena suerte!&quot;)&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-3387" y="-573" width="287" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-11" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oSoX7snds7X8gOdMd6aF-8" target="oSoX7snds7X8gOdMd6aF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-8" value="print(&quot;Estadísticas iniciales:&quot;)&lt;br&gt;print(f&quot;Vidas: {vidas}&quot;)&lt;br&gt;print(f&quot;Planetas explorados: {planetas_explorados}&quot;)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-3382.5" y="-284" width="272" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oSoX7snds7X8gOdMd6aF-10" target="oSoX7snds7X8gOdMd6aF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-10" value="while vidas &amp;gt; 0 and gemas == False:" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3324.5" y="-88" width="162" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oSoX7snds7X8gOdMd6aF-12" target="oSoX7snds7X8gOdMd6aF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-12" value="&amp;nbsp;print(&quot;\n¿A qué planeta quieres ir?&quot;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; print(&quot;1. Planeta Marte&quot;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; print(&quot;2. Planeta Venus&quot;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; print(&quot;3. Planeta Júpiter&quot;)&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; print(&quot;4. Salir del juego&quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;opcion = int(input(&quot;Por favor, selecciona una opción (1-4): &quot;))&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-3362" y="124" width="237" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-18" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oSoX7snds7X8gOdMd6aF-14" target="oSoX7snds7X8gOdMd6aF-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-14" value="if opcion == 1:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; " style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3062" y="154" width="104" height="98.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-16" value="print(f&quot;¡Vamos a {planeta1}!&quot;)&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;pregunta = &quot;¿Cuánto es 3+5?&quot;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-2845" y="2" width="141" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-20" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oSoX7snds7X8gOdMd6aF-17" target="oSoX7snds7X8gOdMd6aF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-21" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oSoX7snds7X8gOdMd6aF-17" target="oSoX7snds7X8gOdMd6aF-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-23" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oSoX7snds7X8gOdMd6aF-17" target="oSoX7snds7X8gOdMd6aF-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-27" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oSoX7snds7X8gOdMd6aF-17" target="oSoX7snds7X8gOdMd6aF-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-17" value="&amp;nbsp;if gema1 == False:" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2934" y="158" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-19" value="respuesta_correcta = 8" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2813" y="113" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-22" value="controlador = True" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2795" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-24" value="si" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2901" y="113" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-25" value="No" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2864" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-29" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oSoX7snds7X8gOdMd6aF-26" target="oSoX7snds7X8gOdMd6aF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-26" value="elif opcion == 2: " style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2938.5" y="345" width="94" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-39" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oSoX7snds7X8gOdMd6aF-28" target="oSoX7snds7X8gOdMd6aF-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-40" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oSoX7snds7X8gOdMd6aF-28" target="oSoX7snds7X8gOdMd6aF-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-28" value="if gema2 == False:" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2937" y="489" width="88" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-30" value="&amp;nbsp;print(f&quot;¡Vamos a {planeta2}!&quot;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; pregunta = &quot;¿Cuánto es 7-4?&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-2805" y="336" width="140" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-32" value="respuesta_correcta = 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2797" y="444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-37" value="si" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2855" y="418" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oSoX7snds7X8gOdMd6aF-38" value="&amp;nbsp;controlador = True" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2801" y="531" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
